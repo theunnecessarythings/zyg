@@ -1,0 +1,14 @@
+- [ ] Unicode (string_literals test) Support + escape sequences (different from Python)
+- [x] Zig test system (not required, but would be nice)
+- [ ] threadlocal -> threading and python, shame on me for thinking of implementing this
+- [ ] Proper error messages
+- [ ] Pointers [Volatile, Align, AllowZero] not supported
+- [ ] Opaque
+- [ ] Labeled While, For, Switch not supported, probably easy to implement using 'with'
+- [ ] While continue
+- [ ] inline fn not added (did not feel like it today)
+- [ ] Passing args to functions (lists, strings, structs, etc) from python
+- [ ] usingnamespace
+- [ ] inline/global assembly
+- [ ] C Interop (Headers, varargs etc)
+- [ ] Probably missed a lot of things (so that too!!! I don't have time)

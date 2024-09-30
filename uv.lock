@@ -1,0 +1,28 @@
+version = 1
+requires-python = ">=3.10"
+
+[[package]]
+name = "ziglang"
+version = "0.13.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e6/14/3587387c715175ed5bb103c94c0df554fabac5bc97de153e9eec2fa905aa/ziglang-0.13.0-py3-none-macosx_12_0_arm64.whl", hash = "sha256:5408ad3a6cb342fb4e4e2351a3725adfcae82eaadebe85fdbbdad9c0ac8b1e24", size = 81237662 },
+    { url = "https://files.pythonhosted.org/packages/4b/38/4f2ef2b1d727d7317b08ef309e52d8c90089272b57d5d940c74524cc4315/ziglang-0.13.0-py3-none-macosx_12_0_x86_64.whl", hash = "sha256:d1b00173b8a5bfbaccb255240b8c091bd523c13743178bc248355ec6484fced7", size = 83910175 },
+    { url = "https://files.pythonhosted.org/packages/d0/62/dbd21b026cbe8f5299f8c2d5e9f5963557d3ca928389c7187738726fab5b/ziglang-0.13.0-py3-none-manylinux_2_12_i686.manylinux2010_i686.musllinux_1_1_i686.whl", hash = "sha256:d7feb1b8cd09e17a24a2218e5b4a1ff7463390cf653e9dbaf54d5f2e4c55c3e5", size = 88249460 },
+    { url = "https://files.pythonhosted.org/packages/0c/b7/ecfdce6368cc3664d301f7f52db4fe1004aa7da7a12c4a9bf1de534ff6ab/ziglang-0.13.0-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.musllinux_1_1_x86_64.whl", hash = "sha256:3ce0c9f16547e5d61b32e0d226926e9a2552ef4b91fccf7ab5ea1a623a77824b", size = 80896325 },
+    { url = "https://files.pythonhosted.org/packages/b8/d9/d5e808cbfa20d6b566c27f3445fea30b5ec86d7b45dad237fdc7a8754f53/ziglang-0.13.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.musllinux_1_1_aarch64.whl", hash = "sha256:5714a4d46f9246ba6180a0930e23df2bc8bc26e62b5fe0dc798b4afca1903308", size = 77819666 },
+    { url = "https://files.pythonhosted.org/packages/3b/a4/dab4ddb824033b369db78235aeaa5b92f710ec01bf1e255edcb9730097a3/ziglang-0.13.0-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.musllinux_1_1_armv7l.whl", hash = "sha256:64458dbe4f8c09ae3f99897d5bf2ac343be5366079dce383e286832f17747e94", size = 78762501 },
+    { url = "https://files.pythonhosted.org/packages/28/e2/1501b497dbdd10300a47729466a30cb78dc11dae952ff01588426947f9cf/ziglang-0.13.0-py3-none-win32.whl", hash = "sha256:36e797eebe1c75e978fb14c4ca5a42f9350cdda1850c173c036573bc480e37e8", size = 84675514 },
+    { url = "https://files.pythonhosted.org/packages/e0/0c/66f4710aedf5544e15779ff9c6e770322986e15daf9299b1a4df0be19e09/ziglang-0.13.0-py3-none-win_amd64.whl", hash = "sha256:b64b2aa936ebbfeecfbb2611df331a5474edebe1246b98c2f56d6ae4d58b71fc", size = 80418705 },
+]
+
+[[package]]
+name = "zyg"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "ziglang" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "ziglang", specifier = ">=0.13.0" }]

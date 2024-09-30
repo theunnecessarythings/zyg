@@ -1,0 +1,5 @@
+zyg.egg-info/
+.zig-cache/
+__pycache__/
+
+
